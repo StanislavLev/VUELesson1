@@ -1,0 +1,19 @@
+html {
+    height:100%;
+}
+
+body {
+  width: 760px;
+  height: 100%;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+header {
+  text-align: center;
+  background: orange;
+}
+#vue-app {
+  height: 100%;
+  background: #DDD
+}
