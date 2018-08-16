@@ -1,7 +1,12 @@
+html {
+  height:100%;
+}
+
 body {
   width: 760px;
   margin: auto;
   font-size: 1.2em;
+  background: #EEE; 
 }
 
 header {
@@ -9,21 +14,21 @@ header {
   background: orange;
 }
 
-#vue-app {
-  background: #DDD
-}
-
-.puppy-name{
-  margin: 15px auto 0 5px;
-}
-
-.puppy-name > h2 {
-  text-align: center;
+header > * {
+  color: #444;
   margin-bottom: 0;
 }
 
-.puppy-name > img {
-  position: relative;
-  top: 0;
-  left: 0;
+#vue-app {
+  height:100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
+
+.puppy-name-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
